@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".profile.ProfileCustomer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:focusableInTouchMode="true">
+
+        <TextView
+            android:id="@+id/ActivityHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/update_det"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito"
+            android:textSize="22sp"/>
+
+        <ProgressBar
+            android:id="@+id/uProgress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@color/white"
+            android:indeterminate="true"
+            android:visibility="gone" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+
+        <EditText
+            android:id="@+id/ufirstname"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner_hollow"
+            android:fontFamily="@font/nunito"
+            android:hint="@string/f_name"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"
+            android:textColorLink="@color/black"
+            android:textSize="19sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <EditText
+            android:id="@+id/ulastname"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner_hollow"
+            android:fontFamily="@font/nunito"
+            android:hint="@string/l_name"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"
+            android:textColorLink="@color/black"
+            android:textSize="19sp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <EditText
+            android:id="@+id/uphno"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner_hollow"
+            android:fontFamily="@font/nunito"
+            android:hint="@string/ph_no"
+            android:inputType="number"
+            android:maxLength="10"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"
+            android:textColorLink="@color/black"
+            android:textSize="19sp"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito"
+            android:paddingStart="60dp"
+            android:paddingBottom="6dp"
+            android:text="@string/for_order"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/uaddress"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner_hollow"
+            android:fontFamily="@font/nunito"
+            android:hint="@string/address"
+            android:inputType="textPostalAddress"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"
+            android:textColorLink="@color/black"
+            android:textSize="19sp"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <EditText
+            android:id="@+id/upincode"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_corner_hollow"
+            android:fontFamily="@font/nunito"
+            android:hint="@string/pincode"
+            android:inputType="number"
+            android:maxLength="6"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"
+            android:textColorLink="@color/black"
+            android:textSize="19sp"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/verifyemail"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/sea_round_corner"
+            android:hint="@string/verifyemail"
+            android:paddingStart="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:background="@drawable/round_corner"
+            android:text="@string/updansave"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</ScrollView>

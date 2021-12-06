@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BookInfo">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:background="#fff"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/bthumbnail"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/loading_shape"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/btitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="3"
+                    android:fontFamily="@font/nunito"
+                    android:text="Tên sách"
+                    android:textSize="23sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/bcategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/nunito"
+                    android:textSize="16sp"
+                    android:maxLines="1"
+                    android:text="không được phân loại" />
+
+                <TextView
+                    android:id="@+id/bprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="không được cung cấp INR (trên web)"
+                    android:fontFamily="@font/nunito"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/bauthor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/nunito"
+                    android:text="Tác giả"
+                    android:maxLines="2"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="left"
+            android:text="Miêu Tả"
+            android:textSize="17dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/nunito" />
+
+        <TextView
+            android:id="@+id/bdesc"
+            android:layout_marginTop="6dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text=" Không có mô tả nào"
+            android:fontFamily="@font/nunito"
+            android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/bshow"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_corner"
+                android:text="Đọc bản xem trước"
+                android:textColor="@color/white" />
+
+    </LinearLayout>
+</ScrollView>

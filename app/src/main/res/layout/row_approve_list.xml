@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:background="#fff"
+    android:padding="8dp"
+    android:id="@+id/container">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/row_bookname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:text="Đặt hàng cho Cách đọc một cuốn sách"
+        android:textColor="@color/black"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/row_orderedon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Ngày"
+        android:maxLines="2"
+        />
+
+    <TextView
+        android:id="@+id/row_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="HKK,DMK,VQK"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/acc_order"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:background="@color/lightGrey"
+            android:text="Chấp nhận"
+            android:textAllCaps="false"
+            android:textColor="#33691E"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/dec_order"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Từ chối"
+            android:textAllCaps="false"
+            android:textColor="@color/red"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>

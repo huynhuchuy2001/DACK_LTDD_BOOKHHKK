@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mikhaellopez:circularimageview:4.2.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../DoAn_LTDDD/caches/transforms-3/dac9d3bf60020e9aa2c7078046f43fa7/transformed/jetified-circularimageview-4.2.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../DoAn_LTDDD/caches/transforms-3/dac9d3bf60020e9aa2c7078046f43fa7/transformed/jetified-circularimageview-4.2.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../DoAn_LTDDD/caches/transforms-3/dac9d3bf60020e9aa2c7078046f43fa7/transformed/jetified-circularimageview-4.2.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../DoAn_LTDDD/caches/modules-2/files-2.1/com.mikhaellopez/circularimageview/4.2.0/8b2df7169604b3f5e9b48717f2dbbcdb3c8753d9/circularimageview-4.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

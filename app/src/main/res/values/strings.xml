@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Book HKK</string>
+    <string name="welcome">Chào mừng bạn đến với Book HKK</string>
+    <!--Log in-->
+    <string name="login">Đăng nhập</string>
+    <string name="log_out">Đăng xuất</string>
+    <string name="email">Email</string>
+    <string name="password">Mật Khẩu</string>
+    <string name="forget_pass">Quên mật khẩu?</string>
+    <string name="create_seller_account">Tham gia với chúng tôi để kinh doanh với tư cách là Người bán</string>
+    <!--Reset pass -->
+    <string name="have_account">Đã có tài khoản? Đăng nhập.</string>
+    <string name="reset_pass">Đặt lại mật khẩu</string>
+    <string name="receive_link">Nhận liên kết trong email</string>
+    <!--Create Account-->
+    <string name="create_n_account">Tạo tài khoản mới</string>
+    <string name="create_n_s_account">Tạo tài khoản người bán mới</string>
+    <string name="create_account">Tạo tài khoản</string>
+    <string name="owner_f_name">Tên của chủ sở hữu</string>
+    <string name="owner_l_name">Họ của chủ sở hữu</string>
+    <string name="f_name">Tên</string>
+    <string name="l_name">Họ Đệm</string>
+    <string name="ph_no">Số điện thoại</string>
+    <string name="owner_ph_no">Số điện thoại của chủ sở hữu</string>
+    <string name="for_order">Để đặt hàng:</string>
+    <string name="for_owner">Thông tin chủ sở hữu:</string>
+    <string name="shop_name">Tên Shop</string>
+    <string name="GST_no">Số GST</string>
+    <string name="for_company">Thông tin công ty:</string>
+    <string name="address">Địa chỉ</string>
+    <string name="pincode">Mã PIN</string>
+    <!--Home page-->
+    <string name="title_activity_home_customer">Trang chủ khách hàng</string>
+    <string name="title_home">Trang chủ</string>
+    <string name="title_search">Tìm kiếm</string>
+    <string name="title_profile">Thông tin cá nhân</string>
+    <!--Profile-->
+    <string name="name">Tên của tôi</string>
+    <string name="profile">Thông tin cá nhân của tôi</string>
+    <string name="favourites">Yêu thích</string>
+    <string name="my_cart">Giỏ hàng của tôi</string>
+    <string name="order_history">Lịch sử đơn hàng</string>
+    <string name="payment_history">Lịch sử thanh toán</string>
+    <string name="help">Giúp đỡ</string>
+    <string name="contact_dev">Liên hệ với nhà phát triển</string>
+    <string name="about">Giới thiệu về ứng dụng</string>
+    <string name="design">Mục đích thiết kế</string>
+    <!--contact dev-->
+    <string name="tellproblem">Cho tôi biết vấn đề của bạn</string>
+    <string name="sevofproblem">Mức độ nghiêm trọng của vấn đề</string>
+    <string name="detailaboutproblem">Thông tin chi tiết về vấn đề bạn đang gặp phải:</string>
+    <string name="sendmail">Gửi Email</string>
+    <string name="title_activity_home_seller">Trang chủ người bán</string>
+    <string name="navigation_drawer_open">Mở thanh điều hướng</string>
+    <string name="navigation_drawer_close">Đóng ngăn điều hướng</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">Bạn đã đăng nhập thành công</string>
+    <string name="nav_header_desc">Tiêu đề điều hướng</string>
+    <string name="action_settings">Cài đặt</string>
+
+    <string name="menu_home">Trang chủ</string>
+    <string name="menu_gallery">Bộ sưu tập</string>
+    <string name="menu_slideshow">Trình chiếu</string>
+    <string name="menu_addbook">Thêm sách</string>
+    <string name="menu_removebooks">Xóa sách</string>
+
+    <string name="home_second">Trang chủ thứ hai</string>
+    <string name="menu_booklist">Dánh sách Books</string>
+    <string name="menu_update_order">Cập nhật tình trạng đơn hàng</string>
+    <string name="menu_info">Thông tin cá nhân của tôi</string>
+    <string name="menu_profile">Thông tin của tôi</string>
+    <string name="menu_options">Khác</string>
+    <string name="menu_setting">Cài đặt</string>
+    <string name="menu_feedback">Báo cáo sự cố / Liên hệ với chúng tôi</string>
+    <string name="menu_about">Giới thiệu về ứng dụng</string>
+    <string name="menu_history">Chi tiết thanh toán</string>
+    <string name="menu_current_order">Tất cả đơn hàng</string>
+    <string name="user">Người dùng</string>
+    <string name="searchhere">Tìm kiếm Sách để thêm </string>
+
+    <string name="Failed_to_Load_data">Xin vui lòng kiểm tra kết nối Internet của bạn</string>
+    <string name="NO_RESULT">Không có kết quả phù hợp</string>
+    <!--ABOUT-->
+    <string name="about_para">Ứng dụng Book HKK</string>
+    <string name="about_para1">Ứng dụng phục vụ mục đích là trung gian giữa các cửa hàng sách nhỏ ở thành phố và khách hàng.</string>
+    <string name="about_para10">Ứng dụng này sẽ mang đến cơ hội kiếm sống cho chủ cửa hàng nhỏ.</string>
+    <string name="about_para11">Cũng sẽ cung cấp cho người đóng sách những cuốn sách họ muốn ở nhà.</string>
+
+    <!--UPDATE INFO-->
+    <string name="update_det">Cập nhật chi tiết</string>
+    <string name="verifyemail">Xác nhận email của bạn*</string>
+    <string name="updansave">Cập nhật và Lưu thay đổi</string>
+    <string name="addbook">Thêm sách vào danh sách bán</string>
+    <string name="quan_ava">Số lượng có sẵn tại cửa hàng của bạn</string>
+    <string name="urprice">Giá bán của bạn</string>
+    <string name="rentprice">Giá thuê</string>
+    <string name="delicharges">Phí vận chuyển</string>
+    <!--SEARCH BOOK-->
+    <string name="search_ph">Tìm kiếm Sách theo tên, tác giả</string>
+    <!--VIEW BOOK-->
+    <string name="buybook">Mua sách</string>
+    <string name="rentbook">Sách thuê</string>
+    <string name="read_preview">Đọc trước sách</string>
+    <string name="conti">Tiếp tục</string>
+    <string name="placeorder">Đặt hàng</string>
+    <string name="pinfo">Bạn sẽ phải thanh toán tiền và các tài liệu khác (nếu được yêu cầu) khi giao hàng. Bạn có thể thanh toán bằng tiền mặt hoặc UPI, thẻ hoặc bất kỳ phương thức trực tuyến nào khác.</string>
+    <string name="addadd">Nhập địa chỉ mới</string>
+    <string name="order_summary">Tóm tắt theo thứ tự</string>
+    <string name="change_address_for_this_order">Thay đổi địa chỉ cho đơn đặt hàng này</string>
+    <string name="book_image">Hình ảnh Sách</string>
+    <string name="authname">Tên tác giả</string>
+    <string name="genre">Thể loại</string>
+    <string name="price_details">Chi tiết giá cả</string>
+    <string name="price_1_item">Giá (1 mặt hàng)</string>
+    <string name="delivery_charges">Phí vận chuyển</string>
+    <string name="total_amount">Tổng cộng</string>
+    <string name="payment_details">Chi tiết thanh toán</string>
+    <string name="cash_on_delivery">Thanh toán khi giao hàng</string>
+    <string name="final_amount_to_pay">Số tiền cuối cùng phải trả</string>
+    <string name="use_this_address_for_this_order">Sử dụng Địa chỉ này cho đơn đặt hàng này</string>
+    <string name="go_to_home">Quay lại trang chủ</string>
+    <string name="order_placed">Đã đặt hàng!</string>
+    <string name="click_on_address_to_change_address_for_this_order">(Nhấp vào địa chỉ để thay đổi địa chỉ và mã pin cho đơn hàng này)</string>
+    <string name="orders_recevied">Đơn đặt hàng nhận được</string>
+    <string name="profit_earned">Lợi nhuận kiếm được*</string>
+    <string name="potential_profit">Lợi nhuận tiềm năng</string>
+    <string name="descripforOTP">Cung cấp mã OTP bí mật dưới đây cho chàng trai giao hàng để xác thực và giao đơn hàng một cách an toàn.</string>
+    <string name="select_the_number_of_days_for_renting">Chọn số ngày thuê: </string>
+    <string name="verification_documents_necessary">Tài liệu xác minh cần thiết</string>
+    <string name="any_valid_identity_proof_like_aadhar_card_pan_card_license_card_voting_card_would_be_considered">Mọi bằng chứng nhận dạng hợp lệ như thẻ Aadhar, thẻ PAN, thẻ Giấy phép, thẻ biểu quyết sẽ được xem xét.</string>
+    <string name="any_valid_identity_proof_like_electricity_bill_rent_agreement_aadhar_card_would_be_considered">Mọi bằng chứng nhận dạng hợp lệ như Hóa đơn tiền điện, Hợp đồng thuê nhà, Thẻ Aadhar sẽ được xem xét.</string>
+    <string name="updatenview">Cập nhật / xem chi tiết</string>
+    <string name="recevied">Nhận</string>
+    <string name="tobereceived">Đã nhận được</string>
+    <string name="rejectedorder">Đơn hàng bị từ chối</string>
+
+</resources>
